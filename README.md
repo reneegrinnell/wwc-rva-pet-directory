@@ -11,7 +11,7 @@ Help build out our directory by adding a professional bio for your pet(s), or fo
 To contribute: fork this repo, clone it to your machine, then create a new branch to add your content or changes before pushing up your branch and submitting a PR back to this repo. For those who are new to GitHub contributions (or just want a refresher) [this resource](https://github.com/firstcontributions/first-contributions) is great to follow.
 
 ## Development
-Once you have cloned the repo, run a local build of the project with `npm start`.
+Once you have cloned the repo, the first time you start it run `npm install`. After that run a local build of the project with `npm start`.
 Open [http://localhost:3000](http://localhost:3000) to view the site in the browser.
 
 The page will reload if you make edits.\
