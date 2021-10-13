@@ -1,0 +1,40 @@
+.pet-list {
+  list-style: none;
+  margin: 72px 0;
+  padding: 0;
+}
+
+.pet-list-item {
+  display: flex;
+  margin-top: 24px;
+}
+
+.pet-pic {
+  margin-right: 24px;
+  max-width: 300px;
+  max-height: 300px;
+  border: 8px solid rgb(84, 29, 147);
+}
+
+.pet-name {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.pet-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Adding custom styles for your particular pet bio? Add a unique classname to the <li> and target it below */
+
+.francis .pet-pic {
+  border-color: rgb(170, 31, 147);
+}
+
+.francis blockquote {
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(170, 31, 147);
+}

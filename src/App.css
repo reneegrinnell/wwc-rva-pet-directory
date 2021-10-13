@@ -1,0 +1,18 @@
+.directory {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.directory-header {
+  margin-bottom: 0;
+  font-size: 72px;
+  color: rgb(84, 29, 147);
+  text-align: center;
+}
+
+.directory-description {
+  color: rgb(91, 91, 91);
+  text-align: center;
+}
