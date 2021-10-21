@@ -1,5 +1,6 @@
 import Francis from './pics/francis.png';
 import Meechum from './pics/meechum.png';
+import Relish from './pics/relish.png';
 
 import './PetList.css';
 
@@ -42,6 +43,25 @@ function PetList() {
             </blockquote>
             <figcaption>- Britney Spears</figcaption>
           </figure>
+        </div>
+      </li>
+      <li className="pet-list-item relish">
+        <img className="pet-pic" src={Relish} alt='black dog' />
+        <div>
+          <p className="pet-name">
+            Relish
+          </p>
+          <p className="pet-title">
+            CEO (Chief Ears Officer)
+          </p>
+          <p>
+            Fun Facts:
+          </p>
+          <ul>
+            <li>Self-appointed head of squirrel patrol</li>
+            <li>Hears all office gossip, tolerates none of it</li>
+            <li>Cries when the boss leaves her home alone</li>
+          </ul>
         </div>
       </li>
     </ul>
