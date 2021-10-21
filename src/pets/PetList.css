@@ -38,3 +38,8 @@
   font-size: 24px;
   color: rgb(170, 31, 147);
 }
+
+.relish .pet-pic {
+  border-color: rgb(146, 214, 70);
+  border-style: dotted;
+}
