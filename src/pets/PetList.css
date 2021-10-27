@@ -44,3 +44,14 @@
   border-color: rgb(146, 214, 70);
   border-style: dotted;
 }
+
+.bakancito .pet-pic {
+  border-color: rgb(100, 0, 0);
+  border-style: dotted;
+}
+
+.bakancito li {
+  display: list-item;
+  list-style-type: "😴";
+  padding-inline-start: 1ch;
+}
