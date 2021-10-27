@@ -1,6 +1,7 @@
 import Francis from './pics/francis.png';
 import Meechum from './pics/meechum.png';
 import Relish from './pics/relish.png';
+import Chai from './pics/chai.png';
 
 import './PetList.css';
 
@@ -61,6 +62,25 @@ function PetList() {
             <li>Self-appointed head of squirrel patrol</li>
             <li>Hears all office gossip, tolerates none of it</li>
             <li>Cries when the boss leaves her home alone</li>
+          </ul>
+        </div>
+      </li>
+      <li className="pet-list-item chai">
+        <img className="pet-pic" src={Chai} alt='judgmental calico on windowsill' />
+        <div>
+          <p className="pet-name">
+            Chai
+          </p>
+          <p className="pet-title">
+            10x Window Monitor
+          </p>
+          <p>
+            Fun Facts:
+          </p>
+          <ul className="pet-list-chai">
+            <li>Office sustainability evangelist (solar-powered)</li>
+            <li>Will work for ear rubs</li>
+            <li>Will work even harder for tuna</li>
           </ul>
         </div>
       </li>
