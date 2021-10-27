@@ -55,3 +55,14 @@
   list-style-type: "😴";
   padding-inline-start: 1ch;
 }
+
+.chai .pet-pic {
+  border-color: rgb(0, 100, 100);
+  border-style: ridge;
+}
+
+.chai li {
+  display: list-item;
+  list-style-type: "🐾";
+  padding-inline-start: 1ch;
+}
